@@ -1,0 +1,15 @@
+.topCatBtn{
+    display: none!important;
+    transition: all .2s ease-in-out;
+}
+.topCatBtn:hover{
+    background: #D30B5F;
+    color: white;
+}
+#TopCategoryWrap{
+    transition: all .2s ease-in-out;
+}
+#TopCategoryWrap:hover .topCatBtn{
+    display:block!important;
+}
+
